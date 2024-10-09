@@ -1,0 +1,9 @@
+.Footer-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 66px 464px 29px 463px;
+}

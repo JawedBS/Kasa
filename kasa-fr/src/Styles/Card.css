@@ -1,0 +1,20 @@
+.Card-content {
+    background: linear-gradient(180deg, #FF6060, #FF5060);
+    width: 340px;
+    height: 340px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.Card-content img {
+    position: relative;
+    width: 100%; 
+    height: 340px;
+    object-fit: cover; 
+    border-bottom: 1px solid #ccc;
+  }
+  .Card-content h2 {
+    position: absolute;
+    z-index: 1;
+  }
