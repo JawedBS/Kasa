@@ -1,37 +1,30 @@
 import React from 'react';
 
-
 import './App.css';
-import Banner from "./Components/Banner.js"
 import Header from "./Components/Header.js";
 import Footer from "./Components/Footer.js";
-import Card from "./Components/Card.js";
-import bannerImg from "./Bannière.jpeg" 
-import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from './Components/About.js';
+import Error from './Components/Error.js';
+import Housing from './Components/Housing.js';
+import Home from './Components/Home.js';
+
+
 
 
 function App() {
-  const [housing,setHousing] = useState([])
-  useEffect(() => {
-    fetch("../Kasa.json") 
-    .then(res => res.json())
-    .then (json => setHousing(json))
-  }, [])
-  console.log(housing)
   return (
   
     <div className='Body'>
       <Header></Header>
-      <div className='main'>
-      <Banner imgSrc={bannerImg} imgAlt="Image Bannière" title="Chez vous, partout et ailleurs"></Banner>
-      <div className='Card-zone'>
-        {
-          housing.map((housing) => {
-            return <Card title={housing.title} img={housing.cover} id={housing.id}></Card>
-          })
-        }
-      </div>
-      </div>
+      <Router>
+      <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About />} />
+      <Route path="/housing/:id" element={<Housing/>} />
+      <Route path="*" element={<Error />} />
+      </Routes>
+    </Router>
       <Footer></Footer>
     </div>
   );
