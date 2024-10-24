@@ -14,19 +14,20 @@ import Home from './Components/Home.js';
 
 function App() {
   return (
-  
+    <Router>
     <div className='Body'>
-      <Header></Header>
-      <Router>
+      <Header/>
+      
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About />} />
       <Route path="/housing/:id" element={<Housing/>} />
       <Route path="*" element={<Error />} />
       </Routes>
-    </Router>
-      <Footer></Footer>
+    
+      <Footer/>
     </div>
+    </Router>
   );
 }
 

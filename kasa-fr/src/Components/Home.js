@@ -21,7 +21,7 @@ function Home() {
       <div className='Card-zone'>
         {
           housing.map((housing) => {
-            return <Card title={housing.title} img={housing.cover} id={housing.id}></Card>
+            return <Card key={housing.id} title={housing.title} img={housing.cover} id={housing.id}></Card>
           })
         }
       </div>

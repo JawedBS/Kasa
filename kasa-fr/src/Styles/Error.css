@@ -1,0 +1,16 @@
+.error-title {
+    font-size: 288px;
+    font-weight: 700;
+    color: #ff6060;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.error-text {
+    font-size: 36px;
+    color: #ff6060;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+
+}

@@ -21,7 +21,7 @@
     filter: brightness(50%); 
 }
 
-.Banner-zone h1 {
+.Banner-zone h2 {
     position: relative;
     color: white; /* Couleur du texte */
     font-size: 3rem; /* Ajustez la taille du texte */

@@ -6,6 +6,7 @@
     display: flex;
     align-items: flex-end;
     border-radius: 10px;
+    
 }
 .Card-content img {
     position: relative;
@@ -13,8 +14,11 @@
     height: 340px;
     object-fit: cover; 
     border-bottom: 1px solid #ccc;
+    border-radius: 10px;
   }
   .Card-content h2 {
     position: absolute;
     z-index: 1;
+    font-size: 18px;
+    
   }

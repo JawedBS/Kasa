@@ -1,14 +1,15 @@
 import React from 'react';
-import Header from "../Components/Header.js";
-import Footer from "../Components/Footer.js";
+import { Link } from "react-router-dom";
+import "../Styles/Error.css";
 
 function Error () {
     return (
         <div className='Body'>
-      <Header></Header>
-      <h1>404</h1>
-      <p></p>
-      <Footer></Footer>
+      <div className='main'>
+      <h1 className='error-title'>404</h1>
+      <p className='error-text'>Oups! La page que vous demandez n'existe pas.</p>
+      <Link to="/">Retourner sur la page d'accueil</Link>
+      </div>
     </div>
     )
 }
