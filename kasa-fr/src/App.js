@@ -13,11 +13,12 @@ import Home from './Components/Home.js';
 
 
 function App() {
+
   return (
     <Router>
     <div className='Body'>
       <Header/>
-      
+     
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About />} />
