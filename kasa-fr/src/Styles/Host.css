@@ -1,0 +1,16 @@
+.host-Info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.host-Name {
+    font-size: 18px;
+    color: #FF6060;
+    font-weight: 500;
+    text-align: right;
+}
+.host-Picture {
+    border-radius: 90px;
+    height: 64px;
+    width: 64px;
+}

@@ -23,10 +23,10 @@ const Carousel = ({ pictures }) => {
                 className="carousel-image"
             />
             <button onClick={prevSlide} className="carousel-button carousel-button-prev">
-            <FontAwesomeIcon icon={faArrowLeft}/> {/* Flèche gauche */}
+            <FontAwesomeIcon icon="fa-solid fa-angle-left" />
             </button>
             <button onClick={nextSlide} className="carousel-button carousel-button-next">
-            <FontAwesomeIcon icon={faArrowRight}/> {/* Flèche droite */}
+            <FontAwesomeIcon icon="fa-solid fa-angle-right" />
             </button>
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}

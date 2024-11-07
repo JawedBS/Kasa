@@ -1,0 +1,10 @@
+.tag-text {
+    border: 1px solid #FF6060;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    width: 115px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}

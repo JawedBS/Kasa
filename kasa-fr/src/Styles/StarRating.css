@@ -1,0 +1,12 @@
+.star-rating {
+    width: 196px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .star-icon {
+    font-size: 36px; 
+    color: #FF6060; 
+  }
