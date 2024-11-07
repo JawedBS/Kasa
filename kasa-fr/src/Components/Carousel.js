@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const Carousel = ({ pictures }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,10 +23,10 @@ const Carousel = ({ pictures }) => {
                 className="carousel-image"
             />
             <button onClick={prevSlide} className="carousel-button carousel-button-prev">
-            <FontAwesomeIcon icon="fa-solid fa-angle-left" />
+            <img src="../ArrowLeft.png"/>
             </button>
             <button onClick={nextSlide} className="carousel-button carousel-button-next">
-            <FontAwesomeIcon icon="fa-solid fa-angle-right" />
+            <img src="../ArrowRight.png"/>
             </button>
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}
