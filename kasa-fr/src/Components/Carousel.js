@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ArrowLeft from "../ArrowLeft.png"
-import ArrowRight from "../ArrowRight.png"
+import ArrowLeft from "../ArrowLeft.png";
+import ArrowRight from "../ArrowRight.png";
+import "../Styles/Carrousel.css";
 
 
 const Carousel = ({ pictures }) => {
@@ -24,10 +25,10 @@ const Carousel = ({ pictures }) => {
                 className="carousel-image"
             />
             <button onClick={prevSlide} className="carousel-button carousel-button-prev">
-            <img src={ArrowLeft}/>
+            <img className="Arrow-Left" src={ArrowLeft}/>
             </button>
             <button onClick={nextSlide} className="carousel-button carousel-button-next">
-            <img src={ArrowRight}/>
+            <img className="Arrow-Left" src={ArrowRight}/>
             </button>
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}
