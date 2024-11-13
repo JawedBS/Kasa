@@ -1,13 +1,14 @@
 .collapse {
     position: relative;
     display: inline-block;
-    margin: 0px 108.5px 0px 108.5px;
+    
 }
 .collapse.wide {
-    width: 100%;
+    max-width: 100%;
+    margin: 0px 108.5px 0px 108.5px;
 }
 .collapse.narrow {
-    width: 50%;
+    width: 47%;
 }
 .collapse-button {
     background-color: #FF6060;

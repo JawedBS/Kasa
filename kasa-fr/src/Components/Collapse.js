@@ -3,7 +3,7 @@ import "../Styles/Collapse.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
-function Collapse({ buttonText, paragraphText}) {
+function Collapse({ buttonText, paragraphText, size }) {
     // Utilisation du useState pour gérer l'état du menu déroulant et de l'icône
     const [isOpen, setIsOpen] = useState(false);
 
@@ -12,10 +12,10 @@ function Collapse({ buttonText, paragraphText}) {
         setIsOpen(!isOpen);
     };
 
-   
+    const collapseClass = size === 'wide' ? 'collapse wide' : 'collapse narrow';
 
     return (
-        <div className="collapse" onClick={toggleCollapse}>
+        <div className={collapseClass} onClick={toggleCollapse}>
             <button className="collapse-button" >
                 {buttonText} <FontAwesomeIcon icon={faArrowUp} className={isOpen ? 'rotate' : ''} />
             </button>
