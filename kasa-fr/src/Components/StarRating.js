@@ -10,8 +10,8 @@ const StarRating = ({ rating, maxStars = 5 }) => {
       {Array.from({ length: maxStars }, (_, index) => (
         <FontAwesomeIcon 
           key={index} 
-          icon={index < rating ? faSolidStar : faRegularStar} 
-          className="star-icon" 
+          icon={index < rating ? faSolidStar : faRegularStar}  
+          className={`star-icon ${index >= rating ? 'regular-star' : ''}`}
         />
       ))}
     </div>
