@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
 .tags-container {
     display: flex;
     flex-direction: row;

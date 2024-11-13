@@ -43,8 +43,8 @@ const Housing = () => {
                     </div>
                     </div>
                     <div className="collapseContainer">
-                    <Collapse buttonText="Description" paragraphText={housing.description} />
-                    <Collapse buttonText="Équipements" paragraphText={housing.equipments.join(" ")} />
+                    <Collapse buttonText="Description" paragraphText={housing.description} size="narrow"/>
+                    <Collapse buttonText="Équipements" paragraphText={housing.equipments.join(" ")} className="narrow" />
                     </div>
           
                     

@@ -3,7 +3,12 @@
     display: inline-block;
     margin: 0px 108.5px 0px 108.5px;
 }
-
+.collapse.wide {
+    width: 100%;
+}
+.collapse.narrow {
+    width: 50%;
+}
 .collapse-button {
     background-color: #FF6060;
     color: white;
