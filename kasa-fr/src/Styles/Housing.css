@@ -19,3 +19,24 @@
     flex-direction: row;
     gap: 10px;
 }
+@media (max-width: 768px) {
+    .appartmentInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hostRating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .collapseContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .collapse.narrow {
+        width: 100%;
+    }
+}

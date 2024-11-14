@@ -7,6 +7,10 @@ header {
 }
 header h1 {
     height: 68px;
+    margin: 0px;
+}
+.header-image {
+    height: 68px;
 }
 nav {
     display: flex;
@@ -33,7 +37,10 @@ nav {
     }
 
     header h1 {
-        height: 50px;
+        height: 46px;
+    }
+    .header-image {
+        height: 46px;
     }
 
     nav {

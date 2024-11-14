@@ -15,3 +15,12 @@
     height: 64px;
     width: 64px;
 }
+@media (max-width: 768px) {
+    .host-Name {
+        font-size: 12px;
+    }
+    .host-Picture {
+        height: 32px;
+        width: 32px;
+    }
+  }

@@ -7,4 +7,10 @@
     height: 25px;
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .tag-text{
+        height: 18px;
+    }
 }

@@ -62,4 +62,10 @@
     .collapse.wide {
         margin: 0px;
     }
+    .collapse-button {
+        font-size: 13px;
+    }
+    .collapse-content {
+        font-size: 13px;
+    }
     }
