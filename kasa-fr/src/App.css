@@ -51,7 +51,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 43px;
   margin: 0px 100px 0px 100px;
 }
 .Body {
@@ -60,3 +59,9 @@
   
   gap: 50px;
 }
+
+@media (max-width: 768px) {
+  .main {
+    margin: 0px;
+  }
+  }

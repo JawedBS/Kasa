@@ -6,7 +6,7 @@ import Collapse from './Collapse.js';
 function About () {
     return (
         <div className='Body'>
-        <div className='main'>
+        <div className='main about-page'>
       <Banner imgSrc={bannerImg} imgAlt="Image Bannière" title=""/>
       <Collapse
     buttonText="Fiabilité" 

@@ -17,7 +17,40 @@ nav {
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
+    color: black;
+    justify-content: center;
  }
  a:hover {
     text-decoration: underline;
  }
+ @media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0px 0px 0px;
+        align-items: center;
+    }
+
+    header h1 {
+        height: 50px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+    }
+
+    a {
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+        justify-content: flex-start;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

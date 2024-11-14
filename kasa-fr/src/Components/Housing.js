@@ -23,7 +23,7 @@ const Housing = () => {
             });
     }, [id]);
     return (
-        <div className="main">
+        <div className="main housing-page">
              {housing && (
                 <>
                     

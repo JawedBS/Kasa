@@ -54,3 +54,12 @@
 .rotate {
     transform: rotate(180deg);
 }
+
+@media (max-width: 768px) {
+    .main.about-page {
+        gap: 20px;
+    }
+    .collapse.wide {
+        margin: 0px;
+    }
+    }

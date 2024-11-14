@@ -14,3 +14,29 @@
     justify-content: center;
 
 }
+.main.error-page {
+    gap: 139px;
+}
+
+@media (max-width: 768px) {
+
+.main.error-page {
+    gap: 113px;
+}
+.error-title {
+    font-size: 96px;
+}
+.error-text {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+}
+a.error-link {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    justify-content: center;
+    text-decoration: underline;
+}
+}

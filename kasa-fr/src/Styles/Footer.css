@@ -18,3 +18,28 @@
     font-size: 24px;
     font-weight: 500;
 }
+@media (max-width: 768px) {
+    .Footer-zone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 66px 122px 58px 122px;
+        background-color: black;
+        color: white;
+    }
+
+    .Footer-img {
+        height: 39px;
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 500;
+        height: 46px;
+        text-align: center;
+    }
+}

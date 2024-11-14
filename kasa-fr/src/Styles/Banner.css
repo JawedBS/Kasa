@@ -24,8 +24,19 @@
 .Banner-zone h2 {
     position: relative;
     color: white; /* Couleur du texte */
-    font-size: 3rem; /* Ajustez la taille du texte */
+    font-size: 48px; /* Ajustez la taille du texte */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour rendre le texte lisible sur l'image */
     z-index: 1;
     
 }
+
+@media (max-width: 768px) {
+    .Banner-zone {
+        height: 111px;
+        border-radius: 10px;
+    }
+    .Banner-zone h2 {
+        font-size: 24px; /* Ajustez la taille du texte */    
+    }
+    
+    }
