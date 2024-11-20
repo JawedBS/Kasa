@@ -8,20 +8,30 @@ import Tag from "./Tag";
 import Info from "./Info";
 import Host from "./Host"
 import StarRating from './StarRating';
- 
+import Error from "./Error";
+
 
 const Housing = () => {
     const { id } = useParams();
     const [housing, setHousing] = useState(null);
+    const [isValid, setIsValid] = useState(true); 
 
     useEffect(() => {
         fetch("../Kasa.json")
             .then((res) => res.json())
             .then((data) => {
                 const selectedHousing = data.find(item => item.id === id);
-                setHousing(selectedHousing);
+                if (selectedHousing) {
+                    setHousing(selectedHousing);
+                } else {
+                    setIsValid(false); 
+                }
             });
     }, [id]);
+
+    if (!isValid) {
+        return <Error />;
+    }
     return (
         <div className="main housing-page">
              {housing && (

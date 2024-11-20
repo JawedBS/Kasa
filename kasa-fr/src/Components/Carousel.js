@@ -24,6 +24,8 @@ const Carousel = ({ pictures }) => {
                 alt={`Slide ${currentIndex + 1}`}
                 className="carousel-image"
             />
+            {pictures.length > 1 && (
+                <>
             <button onClick={prevSlide} className="carousel-button carousel-button-prev">
             <img className="Arrow-Left" src={ArrowLeft}/>
             </button>
@@ -33,6 +35,8 @@ const Carousel = ({ pictures }) => {
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}
             </div>
+             </>
+            )}
         </div>
     );
 };
