@@ -11,7 +11,7 @@
     height: 39.44px;
 }
 
-.footer-text {
+.Footer-text {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -34,7 +34,7 @@
         height: 39px;
     }
 
-    .footer-text {
+    .Footer-text {
         display: flex;
         justify-content: center;
         width: 100%;

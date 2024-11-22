@@ -64,6 +64,11 @@
     }
     .collapse.wide {
         margin: 0px;
+        border-radius: 5px;
+    }
+    .collapse.collapse.narrow {
+        margin: 0px;
+        border-radius: 5px;
     }
     .collapse-button {
         font-size: 13px;

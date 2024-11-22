@@ -14,11 +14,10 @@
     justify-content: center;
 
 }
-.Body.error-page {
-    gap: 139px;
-}
+
 .main.error-page {
     gap: 139px;
+    margin: 89px 100px 89px 100px;
 }
 a.error-link {
     display: flex;
@@ -32,6 +31,7 @@ a.error-link {
 
 .main.error-page {
     gap: 113px;
+    margin: 86px 0px 86px 0px;
 }
 .error-title {
     font-size: 96px;

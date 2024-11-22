@@ -7,7 +7,7 @@
   }
   
   .star-icon {
-    font-size: 36px;  
+    font-size: 27px;
   }
   .star-red{
     color: #FF6060;
@@ -19,6 +19,11 @@
 
   @media (max-width: 768px) {
     .star-icon {
-    font-size: 18px;  
+    font-size: 12px;  
     }
+    .star-rating {
+      width: 98px;
+      height: 18px;
+    }
+    
   }

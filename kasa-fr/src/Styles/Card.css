@@ -21,3 +21,13 @@
     font-size: 18px;
     box-sizing: border-box;
   }
+
+  @media (max-width: 768px) {
+    .Card-content {
+      height: 255px;
+      width: 335px;
+  }
+  .Card-content h2 {
+    margin: 0px 20px 15px 20px;
+  }
+}

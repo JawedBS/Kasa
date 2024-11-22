@@ -13,5 +13,8 @@
 @media (max-width: 768px) {
     .tag-text{
         height: 18px;
+        font-size: 10px;
+        padding: 2.16px 2em 1.84px 2em;
+        border-radius: 5px;
     }
 }

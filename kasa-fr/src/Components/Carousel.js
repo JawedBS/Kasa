@@ -30,7 +30,7 @@ const Carousel = ({ pictures }) => {
             <img className="Arrow-Left" src={ArrowLeft}/>
             </button>
             <button onClick={nextSlide} className="carousel-button carousel-button-next">
-            <img className="Arrow-Left" src={ArrowRight}/>
+            <img className="Arrow-Right" src={ArrowRight}/>
             </button>
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}

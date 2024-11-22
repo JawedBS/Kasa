@@ -7,3 +7,9 @@
     margin: 0px 108.5px 0px 108.5px;
     gap: 20px;
 }
+
+@media (max-width: 768px) {
+    .collapse-zone {
+        margin: 0px;
+    }
+    }

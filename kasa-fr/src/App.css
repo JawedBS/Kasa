@@ -62,6 +62,14 @@
 
 @media (max-width: 768px) {
   .main {
-    margin: 0px;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+  }
+  .Body {
+    gap: 27px;
+  }
+  .Card-zone {
+    gap: 20px;
+    padding: 0px;
   }
   }

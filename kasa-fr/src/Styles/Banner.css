@@ -36,7 +36,8 @@
         border-radius: 10px;
     }
     .Banner-zone h2 {
-        font-size: 24px; /* Ajustez la taille du texte */    
+        font-size: 24px; 
+        height: 48px;   
     }
     
     }

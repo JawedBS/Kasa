@@ -43,3 +43,26 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .carousel-button {
+        width: 24px;
+        height: 24px;
+    }
+    .carousel-image {
+        height: 255px;
+        border-radius: 10px;
+    }
+    .carousel {
+        height: 255px;
+        border-radius: 10px;
+    }
+    .Arrow-Right{
+        height: 24px;
+        width: 24px;
+    }
+    .Arrow-Left{
+        height: 24px;
+        width: 24px;
+    }
+    }
