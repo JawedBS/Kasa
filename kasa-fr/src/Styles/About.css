@@ -1,0 +1,9 @@
+.main.about-page {
+    gap: 38px;
+}
+.collapse-zone {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 108.5px 0px 108.5px;
+    gap: 20px;
+}

@@ -54,7 +54,15 @@ const Housing = () => {
                     </div>
                     <div className="collapseContainer">
                     <Collapse buttonText="Description" paragraphText={housing.description} size="narrow"/>
-                    <Collapse buttonText="Équipements" paragraphText={housing.equipments.join(" ")} size="narrow" />
+                    <Collapse buttonText="Équipements"
+                    paragraphText={
+                    <span className="collapse-list">
+                        {housing.equipments.map((equipment, index) => (
+                            <span key={index} className="collapse-list-item">{equipment}</span>
+                            ))}
+                    </span>
+                    }     
+                    size="narrow" />
                     </div>
           
                     

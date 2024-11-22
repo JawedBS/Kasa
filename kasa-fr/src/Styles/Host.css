@@ -9,6 +9,13 @@
     color: #FF6060;
     font-weight: 500;
     text-align: right;
+    display: flex;
+    align-items: center;
+    word-break: break-word;  
+    hyphens: auto; 
+    max-width: 100%;
+    margin: 0
+    ;
 }
 .host-Picture {
     border-radius: 90px;

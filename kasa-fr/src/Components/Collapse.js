@@ -21,7 +21,7 @@ function Collapse({ buttonText, paragraphText, size }) {
             </button>
             {isOpen && (
                 <div className="collapse-content">
-                    <p>{paragraphText}</p>
+                    <p className='collapse-text'>{paragraphText}</p>
                 </div>
             )}
         </div>

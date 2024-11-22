@@ -3,8 +3,9 @@
     border-radius: 10px;
     background-color: #FF6060;
     color: white;
-    width: 30%;
+    padding: 3px 2em 2px 2em;
     height: 25px;
+    margin: 0;
     display: flex;
     justify-content: center;
     text-align: center;
