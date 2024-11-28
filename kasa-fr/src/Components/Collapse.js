@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import "../Styles/Collapse.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import arrowBack from '../arrow_back.png';
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></link>
 
 function Collapse({ buttonText, paragraphText, size }) {
     // Utilisation du useState pour gérer l'état du menu déroulant et de l'icône
@@ -17,7 +17,12 @@ function Collapse({ buttonText, paragraphText, size }) {
     return (
         <div className={collapseClass} onClick={toggleCollapse}>
             <button className="collapse-button" >
-                {buttonText} <FontAwesomeIcon icon={faArrowUp} className={isOpen ? 'rotate' : ''} />
+                <p className='buttonText'>{buttonText}</p>  
+                <img 
+                    src={arrowBack} 
+                    alt="Toggle Arrow" 
+                    className={`collapse-arrow ${isOpen ? 'rotate' : ''}`} 
+                />
             </button>
             {isOpen && (
                 <div className="collapse-content">

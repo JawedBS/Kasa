@@ -8,6 +8,7 @@ import About from './Components/About.js';
 import Error from './Components/Error.js';
 import Housing from './Components/Housing.js';
 import Home from './Components/Home.js';
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></link>
 
 
 
