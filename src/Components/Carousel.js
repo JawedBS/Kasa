@@ -27,10 +27,10 @@ const Carousel = ({ pictures }) => {
             {pictures.length > 1 && (
                 <>
             <button onClick={prevSlide} className="carousel-button carousel-button-prev">
-            <img className="Arrow-Left" src={ArrowLeft}/>
+            <img className="Arrow-Left" src={ArrowLeft} alt="flèche gauche"/>
             </button>
             <button onClick={nextSlide} className="carousel-button carousel-button-next">
-            <img className="Arrow-Right" src={ArrowRight}/>
+            <img className="Arrow-Right" src={ArrowRight} alt="flèche droite"/>
             </button>
             <div className="carousel-indicator">
                 {currentIndex + 1} / {pictures.length}
